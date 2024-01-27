@@ -1,0 +1,7 @@
+insert into course (id, name, author)
+values(1, 'first query', 'vinay');
+insert into course (id, name, author)
+values(2, 'second query', 'vinay');
+select*from COURSE 
+
+delete from course where id= 1
